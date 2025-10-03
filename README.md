@@ -30,21 +30,6 @@ gradle clean build
 
 The compiled JAR will be in `build/libs/`
 
-## 📖 Usage Example
-
-```yaml
-# Example: Show item only when player is on their own plot
-item:
-  material: DIAMOND
-  name: "&aOn Own Plot!"
-  view_requirement:
-    requirements:
-      on_plot:
-        type: string equals
-        input: "%plotowner_on_own_plot%"
-        output: "true"
-```
-
 ## 👤 Author
 
 **AlphaBlock4k**
